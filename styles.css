@@ -1,0 +1,39 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    margin: auto;
+}
+
+.container > h3 {
+  text-align: center;
+}
+
+.card {
+    width: 400px;
+    margin: 25px auto;
+    border-bottom: solid 5px #654062 ;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #5C848E;
+    border-radius: 8px ;
+    color: #DECDC3;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.avatar{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.card:hover{
+    border-radius: 8px 20% 8px 8px;
+    background-color: #ff9d72;
+    color: #5C848E;
+    border-bottom: solid 5px #E26241;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+   
+}
