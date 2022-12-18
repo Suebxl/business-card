@@ -11,10 +11,7 @@ body {
   text-align: center;
   margin-top: 2em;
 }
-.text-shadow {
-  text-shadow: 2px 1px 2px #654062 ;
-  ;
-}
+
 .card {
     width: 400px;
     margin: 25px auto;
@@ -26,7 +23,7 @@ body {
     background-color: #5C848E;
     border-radius: 8px ;
     color: #DECDC3;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 2.6px;
 }
 
 .avatar{
@@ -35,10 +32,9 @@ body {
 }
 
 .card:hover{
-    border-radius: 8px 20% 8px 8px;
-    background-color: #ff9d72;
+    border-radius: 16px;
+    background-color: #80b5c2;
     color: #5C848E;
     border-bottom: solid 5px #E26241;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-
+    box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 2.6px;
 }
